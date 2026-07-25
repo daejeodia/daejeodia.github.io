@@ -1,11 +1,11 @@
 {
-    "name": "대저 DIA",
-    "short_name": "대저 DIA",
+    "name": "daejeo_dia",
+    "short_name": "daejeo_dia",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#26589A",
-    "theme_color": "#26589A",
-    "description": "부산교통공사 대저차량기지 기관사 근무표",
+    "background_color": "#0175C2",
+    "theme_color": "#0175C2",
+    "description": "A new Flutter project.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
