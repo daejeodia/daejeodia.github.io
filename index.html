@@ -31,8 +31,27 @@
 
   <title>대저 DIA</title>
   <link rel="manifest" href="manifest.json">
+
+  <style>
+    /* 모바일 웹(PWA)에서 롱프레스를 하면 앱의 제스처보다 브라우저 자체의
+       "이미지 저장/공유" 팝업이나 텍스트 선택 제스처 인식이 먼저 반응해서
+       (그때 나는 게 이 진동), 정작 Flutter 쪽 롱프레스는 발생을 못 하는
+       문제가 있어서, 브라우저가 터치를 자체 해석하지 않고 전부 Flutter로
+       넘기도록 막는다. */
+    html, body {
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -webkit-tap-highlight-color: transparent;
+      user-select: none;
+      touch-action: manipulation;
+    }
+
+    flt-glass-pane {
+      touch-action: none !important;
+    }
+  </style>
 </head>
-<body>
+<body oncontextmenu="return false;">
   <!--
     You can customize the "flutter_bootstrap.js" script.
     This is useful to provide a custom configuration to the Flutter loader
