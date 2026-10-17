@@ -60759,7 +60759,7 @@ o.push(A.eT(B.a60,B.S1,r,B.l,new A.aW3(s,a),"\ub85c\uadf8\uc778 \xb7 \ubc31\uc5c
 n=$.km
 if(n!=null)n="\uacf5\uc720 \uc911 \xb7 \ucf54\ub4dc "+n
 else{n=$.mj
-n=n!=null?"\uacf5\uc720\ubc1b\ub294 \uc911 \xb7 \ucf54\ub4dc "+n:"\uadfc\ubb34\xb7\uba54\ubaa8\ub97c \uac00\uc871\uacfc \uc2e4\uc2dc\uac04\uc73c\ub85c \uac19\uc774 \ubcf4\uae30"}o.push(A.eT(B.a6a,B.S5,r,B.l,new A.aW4(s,a),n,11.5,"\uac00\uc871 \uacf5\uc720",r))
+n=n!=null?"\uacf5\uc720\ubc1b\ub294 \uc911 \xb7 \ucf54\ub4dc "+n:"\uadfc\ubb34\xb7\uba54\ubaa8 \uc2e4\uc2dc\uac04 \uacf5\uc720"}o.push(A.eT(B.a6a,B.S5,r,B.l,new A.aW4(s,a),n,11.5,"\uac00\uc871 \uacf5\uc720",r))
 o.push(A.eT(r,B.eA,B.aCA,B.l,new A.aW5(s,a),""+B.d.ap($.L9*100)+"%",11.5,"\uae00\uc790 \ud06c\uae30",r))
 n=A.b9()===B.a2||A.b9()===B.bg||A.b9()===B.bV||A.b9()===B.bU
 if(n)o.push(A.eT(B.vg,B.cN,r,B.l,new A.aW6(a),"\ub2e8\ucd95\uc5b4 \uc54c\ub78c \uc790\ub3d9 \ub4f1\ub85d",11.5,"\uc544\uc774\ud3f0 \uc54c\ub78c",r))
